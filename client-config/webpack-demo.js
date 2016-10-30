@@ -56,7 +56,7 @@ module.exports = webpackMerge(commonConfig, {
       template: 'demo/index.html',
       chunksSortMode: 'dependency'
     }),
-    new CopyWebpackPlugin([{from: 'we_rock.jpg'}]),
+    new CopyWebpackPlugin([{from: 'demo/we_rock.jpg'}]),
     new BrowserSyncPlugin(
       {
         host: '127.0.0.1',
