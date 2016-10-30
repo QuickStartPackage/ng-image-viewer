@@ -1,0 +1,18 @@
+<header>DEMO PAGE</header>
+<main id="contents">
+  <image-viewer [imageUrl]="imageUrl"
+                 [type]="type"
+                 [width]="width"
+                 [height]="height"
+                 [frameSize]="frameSize"
+                 [repeatCoordinate]="repeatCoordinate"
+                 [backgroundImgCoordinateX]="backgroundImgCoordinateX"
+                 [backgroundImgCoordinateY]="backgroundImgCoordinateY"
+                 [borderImageRepeat]="borderImageRepeat"
+                 [imgFrameStyle]="imgFrameStyle"
+                 [coordinateEmitter]="evtEmitter">
+    image loading...
+  </image-viewer>
+  <button (click)="leftEvent($event)">left</button>
+  <button (click)="rightEvent($event)">right</button>
+</main>
