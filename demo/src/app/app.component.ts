@@ -7,14 +7,10 @@ import { Component, EventEmitter } from '@angular/core';
 })
 export class AppComponent {
 
-  // imageUrl:string = 'coke-label.jpg';
-  imageUrl:string = 'guilin.jpg';
+  imageUrl:string = 'we_rock.jpg';
   type:string = 'px';
-  // width:number = 194;
   width:number = 500;
-  // height:number = 336;
   height:number = 738;
-  // frameSize:number = 10;
   frameSize:number = 300;
   repeatCoordinate:string = 'x';
   backgroundImgCoordinateX:number = -285;
