@@ -85,3 +85,7 @@ export class TestComponent {
  * imgFrameStyle(defaultValue: {}): additional css styles
  * coordinateEmitter(defaultValue: none): Event Emitter to do customised actions
 
+ ## License
+
+ MIT © [Daehwan Lee](https://github.com/Redface)
+
