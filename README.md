@@ -10,7 +10,7 @@ new features will be applied in next version.
 ## How to use
 And here's some code! :+1:
 
-1. Import NgImageViewerModule in a specific module
+* Import NgImageViewerModule in a specific module
 
 ```
 @NgModule({
@@ -19,7 +19,7 @@ And here's some code! :+1:
 })
 export class TestModule {}
 ```
-2. Set input properties to describe a image view. All attributes bind to image view component (`*impotant: unless setting a value to each attribute, default value will be set`)
+* Set input properties to describe a image view. All attributes bind to image view component (`*impotant: unless setting a value to each attribute, default value will be set`)
 ```
 export class TestComponent {
   imageUrl:string = 'guilin.jpg';
@@ -52,7 +52,7 @@ export class TestComponent {
 }
 ```
 
-3. Bind pre-defined attributes to image view component (please check attributes options)
+* Bind pre-defined attributes to image view component (please check attributes options)
 ```
 <image-viewer [imageUrl]="imageUrl"
                  [type]="type"
