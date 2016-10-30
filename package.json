@@ -10,6 +10,7 @@
     "rotate",
     "coordinate"
   ],
+  "homepage": "https://github.com/Redface/ng-image-viewer",
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
@@ -26,7 +27,8 @@
   },
   "author": {
     "name": "Daehwan Lee",
-    "email": "redface0512@gmail.com"
+    "email": "redface0512@gmail.com",
+    "url": "https://github.com/jazzyredface"
   },
   "license": "MIT",
   "dependencies": {},
