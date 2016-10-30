@@ -1,0 +1,19 @@
+# compiled output
+/dist
+/tmp
+.awcache/
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+
+# misc
+/connect.lock
+/coverage/*
+npm-debug.log
+
+#System Files
+.DS_Store
