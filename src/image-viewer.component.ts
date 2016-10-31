@@ -3,7 +3,7 @@ import { ImageViewer } from './img-viewer';
 
 @Component({
   selector: 'image-viewer',
-  templateUrl: './image-viewer.component.html'
+  template: `<div [ngStyle]="imgViewer.combinedFrameStyle"></div>`
 })
 
 export class ImageViewerComponent implements OnInit {
