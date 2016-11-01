@@ -20,5 +20,7 @@ npm-debug.log
 #System Files
 .DS_Store
 
-*.ts
-!*.d.ts
+# Ignored files
+*.js
+*.map
+*.d.ts
