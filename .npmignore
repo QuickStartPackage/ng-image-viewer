@@ -7,6 +7,8 @@ Thumbs.db
 .DS_Store
 
 # Unnecessary directories
+/.idea
+.awcache/
 client-config
 demo
 dist
@@ -17,4 +19,5 @@ dist
 .gitignore
 .npmignore
 CHANGELOG.md
+
 *.json
